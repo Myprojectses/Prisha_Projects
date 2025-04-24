@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Design Assignment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f2f2f2;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    a {
+      color: #1a73e8;
+    }
+    .resources {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      text-align: left;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Focus on Web Design - Form Usability Assignment</h1>
+
+  <div class="resources">
+    <h2>Useful Resources on Form Design</h2>
+    <p><strong><a href="https://blog.hubspot.com/marketing/form-design" target="_blank">Form Design Best Practices – HubSpot</a></strong><br/>
+    This article highlights how to increase conversions by keeping forms simple, using single-column layouts, arranging fields from easy to hard, and aligning labels to the left.</p>
+
+    <p><strong><a href="https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/" target="_blank">Best Practices for Mobile Form Design – Smashing Magazine</a></strong><br/>
+    This article shares how to make forms user-friendly on mobile devices using responsive layouts, large touch targets, progress indicators, and real-time validation.</p>
+  </div>
+
+  <h2>Feedback Form</h2>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <footer>
+    <p>Created by <a href="mailto:pprisha@sfc.edu">Prisha (Freelance)</a></p>
+  </footer>
+
+</body>
+</html>
